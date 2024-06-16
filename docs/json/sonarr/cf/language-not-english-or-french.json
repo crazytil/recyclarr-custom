@@ -1,0 +1,30 @@
+{
+    "trash_id": "english_french",
+    "trash_scores": {
+      "default": -10000
+    },
+    "trash_description": "Language: Prefer X but i'll take Y",
+    "name": "Language: Not English or French",
+    "includeCustomFormatWhenRenaming": false,
+    "specifications": [
+      {
+        "name": "Not English Language",
+        "implementation": "LanguageSpecification",
+        "negate": true,
+        "required": true,
+        "fields": {
+          "value": 1
+        }
+      },
+      {
+        "name": "Not French Language",
+        "implementation": "LanguageSpecification",
+        "negate": true,
+        "required": true,
+        "fields": {
+          "value": 2
+        }
+      }
+    ]
+  }
+  
