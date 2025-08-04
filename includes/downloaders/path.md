@@ -1,4 +1,5 @@
-This basic example is based on the use of docker images
+<!-- markdownlint-disable MD041-->
+This basic example is based on the use of Docker images
 
 !!! tip ""
 
@@ -13,3 +14,4 @@ This basic example is based on the use of docker images
     It doesn't matter if you prefer to use `/data`, `/shared`, `/storage` or whatever.
 
     The screenshots in the examples are using the following root path `/data`
+<!-- markdownlint-enable MD041-->

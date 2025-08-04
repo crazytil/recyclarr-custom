@@ -127,7 +127,7 @@ Il est important que vous suiviez et compreniez ce qui est prévu par le guide d
 
 {! include-markdown "../../includes/cf/radarr-movie-versions-imaxe-noremux.md" !}
 
-Note: Les Formats Personnalisés `Advanced Audio` ne sont pas utilisés dans le profil, car les WEB-DL contiennent rarement de l'audio HD (la plupart des nouveaux WEB-DL contiennent cependant de l'Atmos avec perte). Si vous voulez de l'audio HD, nous vous suggérons d'utiliser des Remuxes ou des encodages UHD.
+Note: Les Formats Personnalisés `Audio Formats` ne sont pas utilisés dans le profil, car les WEB-DL contiennent rarement de l'audio HD (la plupart des nouveaux WEB-DL contiennent cependant de l'Atmos avec perte). Si vous voulez de l'audio HD, nous vous suggérons d'utiliser des Remuxes ou des encodages UHD.
 
 ---
 
@@ -261,11 +261,25 @@ Note: Les Formats Personnalisés `Advanced Audio` ne sont pas utilisés dans le 
 
 ---
 
+### Anime
+
+Si vous cherchez à récuperer des Anime en VOSTFR ou en MULTi (original + français).
+
+{! include-markdown "../../includes/french-guide/radarr-french-anime-info-fr.md" !}
+
+{! include-markdown "../../includes/french-guide/radarr-cf-french-anime-scoring-fr.md" !}
+
+{! include-markdown "../../includes/cf/radarr-anime-misc-required.md" !}
+
+{! include-markdown "../../includes/french-guide/radarr-french-unwanted-fr.md" !}
+
+---
+
 ### Formats audio avancés et HDR
 
 TRaSH fournit d'excellents guides et explications à leur sujet dans les liens suivants (*en anglais uniquement*) :
 
-- [Advanced Audio](/Radarr/radarr-setup-quality-profiles/#advanced-audio){:target="\_blank" rel="noopener noreferrer"}
+- [Audio Formats](/Radarr/radarr-setup-quality-profiles/#audio-formats){:target="\_blank" rel="noopener noreferrer"}
 - [HDR Formats](/Radarr/radarr-setup-quality-profiles/#hdr-formats){:target="\_blank" rel="noopener noreferrer"}
 
 ---

@@ -64,7 +64,7 @@ At the bottom, in your chosen profile, you will see the added Custom Formats whe
 
 ---
 
-{! include-markdown "../../includes/merge-quality/sonarrv4-current-logic.md" !}
+{! include-markdown "../../includes/merge-quality/sonarr-current-logic.md" !}
 
 ---
 
@@ -105,7 +105,7 @@ If you prefer 720p/1080p WEBDL (WEB-1080p)
 
 {! include-markdown "../../includes/cf/sonarr-misc-optional.md" !}
 
-Note: The `Advanced Audio` Custom Formats aren't used in the WEB profile, as WEB-DL do not often come with HD audio (most newer WEB-DL will have lossy Atmos, though). If you want HD audio, we would suggest going with Remuxes.
+Note: The `Audio Formats` Custom Formats aren't used in the WEB profile, as WEB-DL do not often come with HD audio (most newer WEB-DL will have lossy Atmos, though). If you want HD audio, we would suggest going with Remuxes.
 
 Use the following main settings in your profile.
 
@@ -158,7 +158,7 @@ If you prefer 2160p WEBDL (WEB-2160p)
 
 {! include-markdown "../../includes/cf/sonarr-misc-uhd-optional.md" !}
 
-Note: The `Advanced Audio` Custom Formats aren't used in the WEB profile, as WEB-DL do not often come with HD audio (most newer WEB-DL will have lossy Atmos, though). If you want HD audio, we would suggest going with Remuxes.
+Note: The `Audio Formats` Custom Formats aren't used in the WEB profile, as WEB-DL do not often come with HD audio (most newer WEB-DL will have lossy Atmos, though). If you want HD audio, we would suggest going with Remuxes.
 
 Use the following main settings in your profile.
 
@@ -168,7 +168,7 @@ Use the following main settings in your profile.
 
 !!! tip
 
-    You might want to combine the `WEB-720p/1080p` into a single Quality Profile if you, for example, want to be able to upgrade from 1080p to 4K/2160p when and if it becomes available after the 1080p release is made, and perhaps enable the `HDTV-720p/1080p` and/or `Bluray-720p/1080p` for some older shows, or even the `Bluray-2160p` and `Bluray-2160p Remux` quality source because you prefer HD audio. Depending on your preferences, you can put them above or below the `WEB-2160p`.
+    You might want to combine the `WEB-720p/1080p` into a single Quality Profile if you, for example, want to be able to upgrade from 1080p to 4K/2160p when and if it becomes available after the 1080p release is made, and perhaps enable the `HDTV-720p/1080p` and/or `Bluray-720p/1080p` for some older shows, or even the `Bluray-2160p` quality source because you prefer HD audio. Depending on your preferences, you can put them above or below the `WEB-2160p`.
 
     ![Alternative Option](images/cf-profile-alternative-web2160.png)
 
@@ -193,7 +193,7 @@ The following custom format groups should be combined with the Quality Profiles 
 
 ### HDR Formats
 
-- You have a 4K TV and a hardware media player device (such as Roku, AppleTV, Shield, SmartTV App, etc.) that supports several HDR formats (such as Dolby Vision, HDR10, HDR10+, etc.).
+- You have a 4K TV and a hardware media player device (such as Roku, Apple TV, Shield, SmartTV App, etc.) that supports several HDR formats (such as Dolby Vision, HDR10, HDR10+, etc.).
 
 {! include-markdown "../../includes/cf/sonarr-all-hdr-formats.md" !}
 
@@ -203,7 +203,7 @@ The following custom format groups should be combined with the Quality Profiles 
 
 ### Why only WEB-DL
 
-??? question "Why do you only have a release profile for WEB-DL - [Click to show/hide]"
+??? question "Why do you only have Profiles for WEB-DL - [Click to show/hide]"
 
     We only do WEB-DL, myself, for TV shows. In our opinion, WEB-DL is the sweet spot between quality and size (you often don't see big differences anyway for TV shows) except for shows like GOT, Vikings, etc.
 
@@ -234,6 +234,10 @@ The following custom format groups should be combined with the Quality Profiles 
     ![!cf-mm-propers-repacks-disable](images/cf-mm-propers-repacks-disable.png)
 
     This way you make sure the Custom Format preferences will be used instead.
+
+### How Does Custom Format Scoring Work?
+
+{! include-markdown "../../includes/shared/custom-format-basic-scoring-information.md" !}
 
 ### Custom Formats to avoid certain releases
 
@@ -270,7 +274,7 @@ This is a must-have for every Quality Profile you use in our opinion. All these 
 
     Elsewhere in the guide, you will find a separate group of custom formats called `Audio Channels`. These will match the number of audio channels in a release, for example, 2.0 (stereo) or 5.1/7.1 (surround sound). We wouldn't add the audio channels Custom Formats as you could limit yourself in the amount of releases you're able to get. Only use them if you have a specific need for them.
 
-    Using this with any kind of Remux Quality Profile is useless, in our opinion, being that 99% of all Remuxes are multi-audio anyway. You can get better scores just by using the `Audio Advanced` Custom Formats.
+    Using this with any kind of Remux Quality Profile is useless, in our opinion, being that 99% of all Remuxes are multi-audio anyway. You can get better scores just by using the `Audio Formats` Custom Formats.
 
 ### Avoid using the x264/x265 Custom Format
 
